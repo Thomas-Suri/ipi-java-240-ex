@@ -6,6 +6,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException {
+        ApplicationContext ctx = new AnnotationConfigApplicationContext(SpringConfig.class);
+
         ProduitManager pm = new ProduitManager();
         WebPageManager webPageManager = new WebPageManager();
         BitcoinService bitcoinService = new BitcoinService();

@@ -43,4 +43,9 @@ public class BitcoinService {
         return prixEnEuro / rate;
     }
 
+    public void setForceRefresh(boolean b) {
+    }
+
+    public void setWebPageManager(WebPageManager webPageManager) {
+    }
 }
